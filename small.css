@@ -1,0 +1,131 @@
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	width: 60px;
+}
+
+#maintitle {
+	font-family:Courier;
+	text-align:center;
+	font-size: 200%;
+	margin-top: 25px;
+
+}
+
+#navigation{
+	font-family: Courier;
+	text-align: center;
+}
+
+#navigationabout {
+	display:inline-block;
+	margin-right: 25%;
+}
+
+#aboutlink {
+	text-decoration: none;
+	color:black;
+}
+
+#aboutlink:hover {
+	background: black;
+	color:white;
+}
+
+#navigationplaylist{
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: 40px;
+}
+
+#playlistlink{
+	text-decoration: none;
+	color:black;
+}
+
+#playlistlink:hover{
+	background:black;
+	color:white;
+}
+
+#posttitle{
+	text-decoration: none;
+	font-family: Courier;
+	margin-left: 11%;
+	margin-top: 50px;
+}
+
+#posttitle:hover{
+	color:black;
+}
+
+.VideoPost {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.videoplayer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	max-height: 30%;
+}
+
+#download{
+	display: inline-block;
+	margin-left: 0%;
+	margin-right: auto;
+	list-style-type: none;
+	font-family: Courier;
+	text-decoration: none;
+}
+
+#downloadlink{
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+}
+
+#downloadlink:hover{
+	background: black;
+	color: white;
+}
+
+#downloadposition{
+	display:inline-block;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+#aboutmaintitle{
+	font-family: Courier;
+	font-size:800%;
+	text-align: center;
+}
+
+#aboutestablished{
+	text-align: center;
+	font-size: 300%;
+	font-family: Courier;
+}
+
+#aboutcopy{
+	text-align: center;
+	font-family: Courier;
+}
+
+#playlistmaintitle{
+	text-align: center;
+	font-family: Courier;
+	font-size: 450%
+}
+
+#playlistdescription{
+	text-align: center;
+	font-family: Courier;
+	font-size:200%;
+}
