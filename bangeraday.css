@@ -1,10 +1,27 @@
-/*.box {
+.box {
+background-color: #0CCAE8;
+width: 75px;
+height: 330em;
+position: absolute;
+margin-top: -80px;
+}
+
+.box2 {
+background-color: #0DFF55;
+width: 50px;
+height: 335em;
+position: right;
+margin-top: -80px;
+margin-right: 50px;
+}
+
+.box3 {
 background-color: #0CCAE8;
 width: 20px;
 height: 330em;
 position: absolute;
 margin-top: -80px;
-}*/
+}
 
 .logo {
 	display: block;

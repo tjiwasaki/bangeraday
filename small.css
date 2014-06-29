@@ -1,10 +1,10 @@
-/*.box {
+.box {
 background-color: #0CCAE8;
 width: 20px;
 height: 1000px;
 z-index: 0;
 position: fixed;
-}*/
+}
 
 .logo {
 	display: block;
