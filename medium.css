@@ -1,9 +1,69 @@
 .box {
-background-color: #0CCAE8;
-width: 20px;
-height: 1000px;
-z-index: 0;
-position: fixed;
+background-color: black;
+width: 80%;
+height: 4px;
+position: absolute;
+margin-top: -50px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+.box:hover {
+	background-color: #0DFF55;
+}
+
+.box2 {
+background-color: black;
+width: 4px;
+height: 4800px;
+position: absolute;
+margin-top: -50px;
+margin-left: 10%;
+}
+
+.box2:hover {
+	background-color: #0CCAE8;
+}
+
+.box3 {
+background-color: black;
+width: 4px;
+height: 4800px;
+position: absolute;
+margin-top: -50px;
+margin-left: 90%;
+}
+
+.box3:hover {
+	background-color: #00FFDC;
+}
+
+.box4 {
+width: 80%;
+height: 4px;
+position: absolute;
+margin-top: 250px;
+margin-left: 10%;
+margin-right: 0%;
+background-color: black;
+}
+
+.box4:hover {
+	background-color: #0CE88C;
+}
+
+.box5 {
+width: 80%;
+height: 4px;
+position: absolute;
+margin-top: 4746px;
+margin-left: 10%;
+margin-right: 10%;
+background-color: black;
+}
+
+.box5:hover {
+	background-color: #0CE88C;
 }
 
 .logo {
@@ -13,11 +73,20 @@ position: fixed;
 	margin-top: 80px;
 }
 
+.logo:hover {
+	background-color: #0DFF55;
+	border-radius: 0%;
+}
+
 #maintitle {
 	font-family:Courier;
 	text-align:center;
 	font-size: 300%;
+}
 
+#maintitle:hover {
+	background-color: #0CCAE8;
+	border-radius: 0%;
 }
 
 #navigation{
@@ -63,8 +132,8 @@ position: fixed;
 	margin-top: 50px;
 }
 
-#posttitle:hover{
-	color:black;
+#posttitle:hover {
+	background-color: #00FFDC;
 }
 
 .VideoPost {

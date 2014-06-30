@@ -1,26 +1,69 @@
 .box {
-background-color: #0CCAE8;
-width: 75px;
-height: 330em;
+width: 70%;
+height: 4px;
 position: absolute;
-margin-top: -80px;
+margin-top: -50px;
+margin-left: 15%;
+margin-right: 15%;
+background-color: black;
+}
+
+.box:hover {
+	background-color: #0DFF55;
 }
 
 .box2 {
-background-color: #0DFF55;
-width: 50px;
-height: 335em;
-position: right;
-margin-top: -80px;
-margin-right: 50px;
+background-color: black;
+width: 4px;
+height: 5600px;
+position: absolute;
+margin-top: -50px;
+margin-left: 15%;
+}
+
+.box2:hover {
+	background-color: #0CCAE8;
 }
 
 .box3 {
-background-color: #0CCAE8;
-width: 20px;
-height: 330em;
+background-color: black;
+width: 4px;
+height: 5600px;
 position: absolute;
-margin-top: -80px;
+margin-top: -50px;
+margin-left: 85%;
+}
+
+.box3:hover {
+	background-color: #00FFDC;
+}
+
+.box4 {
+width: 70%;
+height: 4px;
+position: absolute;
+margin-top: 275px;
+margin-left: 15%;
+margin-right: 15%;
+background-color: black;
+}
+
+.box4:hover {
+	background-color: #0CE88C;
+}
+
+.box5 {
+width: 70%;
+height: 4px;
+position: absolute;
+margin-top: 5546px;
+margin-left: 15%;
+margin-right: 15%;
+background-color: black;
+}
+
+.box5:hover {
+	background-color: #0CE88C;
 }
 
 .logo {
@@ -28,13 +71,30 @@ margin-top: -80px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 80px;
+	color: black;
+}
+
+.logo:hover {
+	background-color: #0DFF55;
+	border-radius: 0%;
+}
+
+.titlediv {
+	width:25%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 0%;
 }
 
 #maintitle {
 	font-family:Courier;
 	text-align:center;
 	font-size: 300%;
+}
 
+#maintitle:hover {
+	background-color: #0CCAE8;
+	border-radius: 0%;
 }
 
 #navigation{
@@ -69,7 +129,7 @@ margin-top: -80px;
 }
 
 #playlistlink:hover{
-	background:black;
+	background: black;
 	color:white;
 }
 
@@ -78,6 +138,11 @@ margin-top: -80px;
 	font-family: Courier;
 	margin-left: 22%;
 	margin-top: 50px;
+	width: 56%;
+}
+
+#posttitle:hover {
+	background-color: #00FFDC;
 }
 
 #posttitle:hover{
